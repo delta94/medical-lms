@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="manifest" href="/webmanifest.json">
+    <meta name="theme-color" content="#0fb7dd">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Medical LMS</title>
+</head>
+<body style="background-color: #E9ECEF">
+<noscript>
+    Sorry, Medical LMS doesn't work properly without JavaScript enabled. Please enable it to continue.
+</noscript>
+<div id="root"></div>
+<div id="unsupported" hidden>
+    <div class="pt-5 pl-5 pr-5">
+        <!--      <img class="img-fluid" src="logo.png" alt="Medical LMS Logo">-->
+        <h1>Medical LMS</h1>
+        <hr/>
+        <h1 class="display-4">Sorry, your browser isn't supported.</h1>
+        <p class="lead">You will need to download a modern browser, such as those listed below, to continue.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
+            <div class="col">
+                <div class="card mb-4">
+                    <a class="p-4" style="min-height: 330px; max-height: 330px;" rel="noreferrer" href="https://www.google.com/chrome/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg" class="card-img-top" alt="Chrome">
+                    </a>
+                    <div class="card-footer text-center">
+                        <h1>Chrome</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4">
+                    <a class="p-4" style="min-height: 330px; max-height: 330px;" rel="noreferrer" href="https://www.mozilla.org/en-GB/firefox/new/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" class="card-img-top" alt="Firefox">
+                    </a>
+                    <div class="card-footer text-center">
+                        <h1>Firefox</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4">
+                    <a class="p-4" style="min-height: 330px; max-height: 330px;" rel="noreferrer" href="https://www.opera.com/download">
+                        <img src="https://seeklogo.com/images/O/opera-logo-FD270C9492-seeklogo.com.png" class="card-img-top" alt="Opera">
+                    </a>
+                    <div class="card-footer text-center">
+                        <h1>Opera</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4">
+                    <a class="p-4" style="min-height: 330px; max-height: 330px;" rel="noreferrer" href="https://support.apple.com/downloads/safari">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Safari_browser_logo.svg" class="card-img-top" alt="Safari">
+                    </a>
+                    <div class="card-footer text-center">
+                        <h1>Safari</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4">
+                    <a class="p-4" style="min-height: 330px; max-height: 330px;" rel="noreferrer" href="https://www.microsoft.com/edge?form=MA13DE&OCID=MA13DE">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/98/Microsoft_Edge_logo_%282019%29.svg" class="card-img-top" alt="Edge">
+                    </a>
+                    <div class="card-footer text-center">
+                        <h1>Edge</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    setTimeout(function() {
+        document.getElementById("unsupported").hidden = false;
+        document.querySelector("body").style.backgroundColor = "#ffffff";
+    }, 400);
+</script>
+</body>
+</html>

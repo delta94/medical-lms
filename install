@@ -1,0 +1,5 @@
+cd server/
+npm -i install
+cd ../react-client/
+npm -i install
+cd ../

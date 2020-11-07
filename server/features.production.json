@@ -1,0 +1,42 @@
+{
+  "emails": {
+    "label": "Email System",
+    "description": "This feature flag enables or disables all emails sent by the server",
+    "status": {
+      "enabled": false,
+      "force": true
+    }
+  },
+  "saml": {
+    "label": "SAML Single-Sign-On",
+    "description": "This feature flag enables or disables the ability to sign in with Single-sign-on",
+    "status": {
+      "enabled": true,
+      "force": false
+    }
+  },
+  "mfa": {
+    "label": "Two-factor authentication",
+    "description": "This feature flag enables or disables the 2FA functionality",
+    "status": {
+      "enabled": false,
+      "force": false
+    }
+  },
+  "mfa-totp": {
+    "label": "App based Two-factor authentication",
+    "description": "This feature flag enables or disables the app based 2FA functionality. This is dependent on two-factor authentication being enabled.",
+    "status": {
+      "enabled": false,
+      "force": false
+    }
+  },
+  "mfa-fido": {
+    "label": "Fido based Two-factor authentication",
+    "description": "This feature flag enables or disables the fido security key based 2FA functionality. This is dependent on two-factor authentication being enabled.",
+    "status": {
+      "enabled": false,
+      "force": true
+    }
+  }
+}

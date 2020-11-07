@@ -1,0 +1,22 @@
+{
+    "short_name": "Medical LMS",
+    "name": "Medical Learning Management System",
+    "description": "LMS for measuring clinical decision making amongst medical students",
+    "icons": [
+        {
+            "src": "/images/icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#0fb7dd",
+    "theme_color": "#0fb7dd",
+    "display": "standalone"
+}
